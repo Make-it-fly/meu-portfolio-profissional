@@ -7,7 +7,7 @@ export default function ProjectCardLi({children, img, link}){
       <img src={img} alt="Kenzie Hub Logo" className="project-img"/>
       <div className="project-description">
         {children}
-        <button className="button-default">Ver Projeto</button>
+        <a href={link || "#"} target="_blank"  className="button-default">Ver Projeto</a>
       </div>
     </StyledProjectCardLi>
   )

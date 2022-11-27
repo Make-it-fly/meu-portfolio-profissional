@@ -61,7 +61,7 @@ export default function PageHoIAm(){
               <h3>Inteligência Emocional</h3>
               <p>Minha trajetória profissional foi toda construída em cima de experiências conquistadas com esforço, garra e disciplina. 
               Tive um contato profundo com Marketing digital, Diagramação de livros e revistas como freelancer, negociação, prospecção de clientes e pressão em ambientes de trabalho.
-              Me deparei com muitas situações onde eu tive que manter minha perseverança e minha fé intactas, sempre mantendo minha conduta. Isso me permitiu desenvolver resiliência
+              Me deparei com muitas situações onde eu tive que manter minha perseverança e minha fé intactas. Isso me permitiu desenvolver resiliência
               </p>
             </div>
           </section>

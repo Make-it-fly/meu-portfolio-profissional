@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle, keyframes } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
 :root{
@@ -13,6 +13,8 @@ const GlobalStyle = createGlobalStyle`
   --white-fixed: #FFF;
   --black-fixed: #000;
   --green: #0DC143;
+  --red: #ED1C24;
+  --red-light: #ff5056;
   --transparent-black: #00000060;
 }
 body{
@@ -22,7 +24,7 @@ body{
   font-family: inter, sans-serif;
 }
 
-.button-white, .button-default, .button-alternative-green{
+.button-red, .button-white, .button-default, .button-alternative-green{
   border-radius: 13px;
   padding: 5px 30px;
   font-size: 14px;
@@ -40,6 +42,13 @@ body{
 }
 .button-white:hover{
   color: var(--color-secondary);
+}
+.button-red{
+  background-color: var(--red-light);
+  color: var(--white-fixed);
+}
+.button-red:hover{
+  background-color: var(--red);
 }
 .button-default{
   background-color: var(--color-primary);
@@ -76,6 +85,8 @@ p{
 * {
   list-style: none;
 }
+
+
 `
 
 export default GlobalStyle

@@ -10,16 +10,20 @@ export default function PageMyProjects(){
     <ContentTemplate>
       <StyledPageMyProjects>
         <section className="projects">
+          <div className="projects-description">
+            <h2>Meus projetos</h2>
+            <p>Todos os projetos aqui listados foram criados com objetivo exclusivamente educacional.</p>
+          </div>
           <ul>
-              <ProjectCardLi img={imgKenzieHub} link={"#"}>
+              <ProjectCardLi img={imgKenzieHub} link={"https://react-entrega-kenzie-hub-make-it-90zjidib9-lucas-nu-kenzie.vercel.app/"}>
                 <h2>Kenzie Hub</h2>
                 <p>KenzieHub é um projeto de fórum. Nele, os usuários podem se cadastrar e inserir tecnologias das quais estão acostumados. </p>
               </ProjectCardLi>
-              <ProjectCardLi img={imgBurguerKenzie} link={"#"}>
+              <ProjectCardLi img={imgBurguerKenzie} link={"https://nu-kenzie-lucas-magalh-es-2sbe-hl0s04rsc-lucas-nu-kenzie.vercel.app/"}>
                 <h2>Nu Kenzie</h2>
                 <p>Aplicação que simula um aplicativo de banco, dando ao usuário controle das suas finanças.</p>
               </ProjectCardLi>
-              <ProjectCardLi img={imgNuKenzie} link={"#"}>
+              <ProjectCardLi img={imgNuKenzie} link={"https://react-entrega-s1-hamburgueria-da-kenzie-make-it-fly-lqwo9pi9v.vercel.app/"}>
                 <h2>Burguer Kenzie</h2>
                 <p>Aplicação que simula uma aplicação para uma hamburgueria.</p>
               </ProjectCardLi>

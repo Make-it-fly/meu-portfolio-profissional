@@ -5,6 +5,9 @@ const StyledPageMyProjects = styled.div`
   height: 100%;
   .projects{
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     ul{
       display: flex;
       flex-direction: column;
@@ -12,6 +15,12 @@ const StyledPageMyProjects = styled.div`
       overflow-y: auto;
       height: 100%;
       padding: 0 10px;
+    }
+    .projects-description{
+      text-align: center;
+      h2{
+        color: var(--color-secondary);
+      }
     }
   }
   .button-default{
