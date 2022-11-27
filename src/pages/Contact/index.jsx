@@ -16,7 +16,7 @@ export default function PageContact(){
             <p><GrMail className="symbol"/> lucoder618@gmail.com</p>
             <p><RiWhatsappFill className="symbol"/>(24) 9 8101-7270</p>
           </div>
-          <button className="button-alternative-green"><RiWhatsappFill/>Mandar um zap</button>
+          <a target="_blank" rel="noreferrer" className="button-alternative-green" href="https://api.whatsapp.com/send?phone=5524981017270&text=Ol%C3%A1%20Lucas!%20Vi%20o%20seu%20portfolio."><RiWhatsappFill/>Mandar um zap</a>
         </div>
       </StyledPageContact>
     </ContentTemplate>

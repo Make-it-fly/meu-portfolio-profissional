@@ -35,6 +35,11 @@ gap: 10px;
     font-size: 1.6em;
   }
 }
+@media screen and (max-width: 360px) {
+    .info-container{
+      flex-direction: column;
+    }
+  }
 `
 
 export default StyledPageContact;

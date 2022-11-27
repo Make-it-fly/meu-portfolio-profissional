@@ -30,6 +30,12 @@ const StyledPageHomePage = styled.div`
           filter: brightness(0.8);
         }
       }
+      .content-buttons{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 15px;
+      }
       h1{
         font-size: 6em;
       }
@@ -37,7 +43,6 @@ const StyledPageHomePage = styled.div`
         font-size: 2em;
       }
       a{
-        margin-top: 30px;
         text-decoration: none;
       }
     }
