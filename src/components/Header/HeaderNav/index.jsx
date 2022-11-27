@@ -1,6 +1,6 @@
 import { AiOutlineHome, AiOutlineFolder } from "react-icons/ai";
-import { FiSmile } from "react-icons/fi";
-import { BiMessageDots } from "react-icons/bi";
+import { BsPerson } from "react-icons/bs";
+import { AiOutlineMail } from "react-icons/ai";
 import StyledHeaderNav from "./style";
 import { Link } from "react-router-dom";
 
@@ -9,20 +9,28 @@ export default function HeaderNav(){
     <StyledHeaderNav>
       <ul>
         <li>
-          <AiOutlineHome className="icon"/>
-          <Link to={"/"}>Página Principal</Link>
+          <Link to={"/"}>
+           <AiOutlineHome className="icon"/>
+            <p>Página Principal</p>
+          </Link>
         </li>
         <li>
-          <AiOutlineFolder className="icon"/>
-          <Link to={"/meus-projetos"}>Meus Projetos</Link>
+          <Link to={"/meus-projetos"}>
+           <AiOutlineFolder className="icon"/>
+            <p>Meus Projetos</p>
+          </Link>
         </li>
         <li>
-          <FiSmile className="icon"/>
-          <Link to={"/quem-sou-eu"}>Quem sou eu</Link>
+          <Link to={"/quem-sou-eu"}>
+            <BsPerson className="icon"/>
+            <p>Quem sou eu</p>
+          </Link>
         </li>
         <li>
-          <BiMessageDots className="icon"/>
-          <Link to={"/contato"}>Contato</Link>
+          <Link to={"/contato"}>
+           <AiOutlineMail className="icon"/>
+            <p>Contato</p>
+          </Link>
         </li>
       </ul>
     </StyledHeaderNav>

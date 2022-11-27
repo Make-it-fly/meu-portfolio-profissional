@@ -1,26 +1,29 @@
 import styled from "styled-components";
 
 const StyledBGGlowingSpheres = styled.div`
-:root{
-  --i: 2
-}
 *{
   margin: 0;
   padding: 0;
   box-sizing: 0;
 }
-.container{
+.app-container{
   position: relative;
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  .bubbles{
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 5px;
+  box-sizing: border-box;
+  .bubbles-background{
+    position: fixed;
     display: flex;
     justify-content: space-evenly;
     z-index: -1;
+    width: 100%;
   }
-  .bubbles span:nth-child(even){
+  .bubbles-background span:nth-child(even){
     background-color: #ff2d75;
     box-shadow: 
       0 0 0 10px #ff2d7544,

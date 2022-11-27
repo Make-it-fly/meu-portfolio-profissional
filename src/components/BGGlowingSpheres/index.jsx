@@ -9,8 +9,8 @@ export default function BGGlowingSpheres({children}){
   
   return (
     <StyledBGGlowingSpheres>
-      <div className="container">
-        <div className="bubbles">
+      <div className="app-container">
+        <div className="bubbles-background">
           <Bubble speedFactor={Math.random() * speedMultiplier + speedMinimum}/>
           <Bubble speedFactor={Math.random() * speedMultiplier + speedMinimum}/>
           <Bubble speedFactor={Math.random() * speedMultiplier + speedMinimum}/>
