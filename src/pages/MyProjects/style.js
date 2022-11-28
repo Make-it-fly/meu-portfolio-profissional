@@ -32,6 +32,9 @@ const StyledPageMyProjects = styled.div`
       ul{
         padding: 5px;
       }
+      .project-description{
+        text-align: justify;
+      }
     }
   }
 `

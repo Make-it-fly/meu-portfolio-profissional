@@ -100,6 +100,9 @@ section{
   align-self: center;
 }
 @media screen and (max-width: 625px) {
+  p{
+    text-align: justify;
+  }
   .hard-skills{
     box-sizing: border-box;
     .skills-container{
