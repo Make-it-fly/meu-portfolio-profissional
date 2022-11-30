@@ -10,6 +10,8 @@ const StyledHeaderNav = styled.nav`
     background-color: var(--white-fixed);
     padding: 10px 50px;
     border-radius: 13px;
+    z-index: 10;
+    position: relative;
     li {
       list-style: none;
       gap: 5px;

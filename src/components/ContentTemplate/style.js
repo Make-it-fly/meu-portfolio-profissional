@@ -6,6 +6,7 @@ const StyledContentTemplate = styled.div`
   padding: 30px;
   border-radius: 13px;
   box-sizing: border-box;
+  z-index: 10;
   @media screen and (max-width: 520px) {
     padding: 10px;
   }

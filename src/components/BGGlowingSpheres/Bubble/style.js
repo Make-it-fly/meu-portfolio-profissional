@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 const StyledBubble = styled.span`
   position: relative;
-  min-width: 30px;
-  height: 30px;
+  min-width: 50px;
+  height: 50px;
   background-color: #4fc3dc;
   margin: 0 4px;
   border-radius: 50px;
@@ -15,11 +15,7 @@ const StyledBubble = styled.span`
   animation: animate linear infinite;
   animation-duration: ${({speedFactor}) => `${speedFactor}s`};
   cursor: pointer;
-
-  :hover{
-    animation: dance infinite;
-    background-color: red;
-  }
+  transition: 0.5s;
 
   @keyframes animate {
     0% {

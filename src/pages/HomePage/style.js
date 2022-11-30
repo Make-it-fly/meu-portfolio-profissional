@@ -15,6 +15,8 @@ const StyledPageHomePage = styled.div`
       align-items: center;
       gap: 10px;
       text-align: center;
+      position: relative;
+      z-index: 10;
       .social-media-buttons{
         display: flex;
         gap: 10px;

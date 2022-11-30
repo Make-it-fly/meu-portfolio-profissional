@@ -20,7 +20,7 @@ const StyledBGGlowingSpheres = styled.div`
     position: fixed;
     display: flex;
     justify-content: space-evenly;
-    z-index: -1;
+    z-index: 1;
     width: 100%;
   }
   .bubbles-background span:nth-child(even){
@@ -31,6 +31,15 @@ const StyledBGGlowingSpheres = styled.div`
       0 0 100px #ff2d75
     ;
   }
+  .clicked{
+    background-color: #0DAD48 !important;
+    box-shadow: 
+    0 0 0 10px #0DAD4844,
+    0 0 50px #0DAD48,
+    0 0 100px #0DAD48 !important;
+    cursor: default;
+  }
+
 
 }
 `
