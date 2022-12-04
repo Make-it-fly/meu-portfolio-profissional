@@ -19,11 +19,11 @@ export default function PageMyProjects(){
                 <h2>Kenzie Hub</h2>
                 <p>KenzieHub é um projeto de fórum. Nele, os usuários podem se cadastrar e inserir tecnologias das quais estão acostumados. </p>
               </ProjectCardLi>
-              <ProjectCardLi img={imgBurguerKenzie} link={"https://nu-kenzie-lucas-magalh-es-2sbe-hl0s04rsc-lucas-nu-kenzie.vercel.app/"}>
+              <ProjectCardLi img={imgNuKenzie} link={"https://nu-kenzie-lucas-magalh-es-2sbe-hl0s04rsc-lucas-nu-kenzie.vercel.app/"}>
                 <h2>Nu Kenzie</h2>
                 <p>Aplicação que simula um aplicativo de banco, dando ao usuário controle das suas finanças.</p>
               </ProjectCardLi>
-              <ProjectCardLi img={imgNuKenzie} link={"https://react-entrega-s1-hamburgueria-da-kenzie-make-it-fly-lqwo9pi9v.vercel.app/"}>
+              <ProjectCardLi img={imgBurguerKenzie} link={"https://react-entrega-s1-hamburgueria-da-kenzie-make-it-fly-lqwo9pi9v.vercel.app/"}>
                 <h2>Burguer Kenzie</h2>
                 <p>Aplicação que simula uma aplicação para uma hamburgueria.</p>
               </ProjectCardLi>
