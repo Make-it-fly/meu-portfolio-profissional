@@ -3,7 +3,7 @@ import StyledPageHomePage from "./style"
 import { FaFileDownload } from 'react-icons/fa';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { BsGithub } from 'react-icons/bs';
-import curriculum from '../../documents/curriculumLucasMagalhaes.pdf'
+import curriculum from '../../documents/Currículo Front End.pdf'
 
 
 export default function PageHomePage(){
