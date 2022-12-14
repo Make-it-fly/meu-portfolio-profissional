@@ -1,4 +1,5 @@
 import BGGlowingSpheres from './components/BGGlowingSpheres';
+import LanguageProvider from './contexts/languageContext';
 import GlobalStyle from './globalStyles';
 import Routes from './routes';
 
@@ -7,7 +8,9 @@ function App() {
     <div className="App">
         <GlobalStyle/>
         <BGGlowingSpheres>
-          <Routes/>
+          <LanguageProvider>
+            <Routes/>
+          </LanguageProvider>
         </BGGlowingSpheres>
     </div>
   );

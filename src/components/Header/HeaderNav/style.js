@@ -30,6 +30,19 @@ const StyledHeaderNav = styled.nav`
         color: inherit;
         font-size: 14px;
       }
+      .btn-change-language{
+        color: var(--color-secondary) !important;
+        font-weight: 600;
+        background-color: transparent;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: inherit;
+        font-size: 14px;
+        cursor: pointer;
+      }
     }
     li:hover{
       color: var(--color-secondary);
@@ -38,6 +51,11 @@ const StyledHeaderNav = styled.nav`
   @media screen and (max-width: 520px) {
     li{
       a{
+        p{
+          display: none;
+        }
+      }
+      .btn-change-language{
         p{
           display: none;
         }

@@ -14,6 +14,9 @@ gap: 10px;
   gap: 5px;
   color: var(--green);
 }
+.title-content{
+  text-align: center;
+}
 .info-container{
   display: flex;
   justify-content: space-between;
