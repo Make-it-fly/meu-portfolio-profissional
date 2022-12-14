@@ -19,7 +19,7 @@ gap: 10px;
 }
 .info-container{
   display: flex;
-  justify-content: space-between;
+  justify-content: ${({isPortuguese} )=> isPortuguese ? 'space-between' : 'center'};
   align-items: center;
   gap: 10px;
   width: 100%;
@@ -32,6 +32,7 @@ gap: 10px;
   p{
     display: flex;
     align-items: center;
+    text-align: center;
     gap: 5px;
   }
   .symbol{
