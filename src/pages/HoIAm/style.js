@@ -70,12 +70,18 @@ section{
       gap: 10px;
       border-radius: 5px;
       background-color: var(--gray3);
+      h3{
+        text-align: center;
+      }
       ul{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
         align-items: center;
         gap: 5px;
         width: 100%;
+        display: flex;
         li{
           background-color: var(--gray1);
           color: var(--white-fixed);
@@ -108,16 +114,6 @@ section{
     .skills-container{
       flex-direction: column;
       width: 100%;
-      .skill-card{
-        ul{
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-          justify-content: center;
-          li{
-          }
-        }
-      }
     }
   }
 }
