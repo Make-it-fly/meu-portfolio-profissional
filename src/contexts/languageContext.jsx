@@ -6,7 +6,7 @@ import { createContext } from "react";
 
  export default function LanguageProvider({children}){
   const [userLanguage, setUserLanguage] = useState(navigator.language || navigator.userLanguage)
-  const [isPortuguese, setIsPortuguese] = useState(userLanguage.includes('pt'))
+  const [isPortuguese, setIsPortuguese] = useState(userLanguage.includes('pt') || false)
   
   return(
     <LanguageContext.Provider value={{
