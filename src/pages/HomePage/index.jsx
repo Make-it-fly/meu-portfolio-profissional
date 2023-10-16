@@ -3,8 +3,8 @@ import StyledPageHomePage from "./style";
 import { FaFileDownload } from "react-icons/fa";
 import { AiFillLinkedin } from "react-icons/ai";
 import { BsGithub } from "react-icons/bs";
-import curriculum_PtBR from "../../documents/Currículo Front End.pdf";
-import curriculum_EnUs from "../../documents/Currículo Front End EN-US.pdf";
+import curriculum_PtBR from "../../documents/Currículo Full stack Extendido.pdf";
+import curriculum_EnUs from "../../documents/Currículo Full stack EN-US.pdf";
 import { useLanguageContext } from "../../contexts/languageContext";
 
 export default function PageHomePage() {
@@ -56,7 +56,7 @@ export default function PageHomePage() {
 							href={
 								isPortuguese ? curriculum_PtBR : curriculum_EnUs
 							}
-							download="Lucas Magalhães - Front End Curriculum">
+							download="Lucas Magalhães - FullStack Curriculum">
 							<FaFileDownload />
 							{isPortuguese
 								? "Currículo Download"

@@ -88,8 +88,8 @@ export default function PageHoIAm() {
 							</h3>
 							<p>
 								{isPortuguese
-									? "Minha trajetória profissional foi toda construída em cima de experiências conquistadas com esforço, garra e disciplina. Tive um contato profundo com Marketing digital, Diagramação de livros e revistas como freelancer, negociação, prospecção de clientes e pressão em ambientes de trabalho. Me deparei com muitas situações onde eu tive que manter minha perseverança e minha fé intactas. Isso me permitiu desenvolver resiliência."
-									: "My professional trajectory was all built on top of experiences gained with effort, determination and discipline. I had a deep contact with digital marketing, layout of books and magazines as a freelancer, negotiation, prospecting for clients and pressure in work environments. I came across many situations where I had to keep my faith. It allowed me to develop resilience."}
+									? "Meu objetivo é trazer soluções baseadas em demanda. Sou comunicativo, de fácil convivência e focado em resultado.Sempre faço meu trabalho de forma diligente e não permito que minha garra e suor ceguem minha empatia para com meus colegas de trabalho."
+									: "My goal is to provide demand-based solutions. I am communicative, easy to get along with, and focused on results. I always do my work diligently and do not allow my determination and hard work to blind my empathy for my coworkers."}
 							</p>
 						</div>
 					</section>
@@ -101,7 +101,7 @@ export default function PageHoIAm() {
 							</h3>
 							<p>
 								{isPortuguese
-									? "Na Kenzie Academy Brasil tenho tido a oportunidade de desenvolver diversos projetos. Adquiri uma grande paixão pela área de desenvolvimento. Amo programar e aprender coisas novas."
+									? "Na Kenzie Academy Brasil tive a oportunidade de desenvolver diversos projetos. Adquiri uma grande paixão pela área de desenvolvimento. Amo programar e aprender coisas novas."
 									: "At Kenzie Academy Brasil I'm having the opportunity to develop several projects. I acquired a great passion for the development area. I love programming and learning new things."}
 							</p>
 						</div>
